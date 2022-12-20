@@ -120,6 +120,7 @@ export const Sales = (props) => {
           color="primary"
           endIcon={<ArrowRightIcon fontSize="small" />}
           size="small"
+onClick={()=>alert("Test")}
         >
           Overview
         </Button>
